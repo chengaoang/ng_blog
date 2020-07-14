@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { ArticleCardComponent } from './article-card/article-card.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ArticleCardComponent
   ],
   imports: [
     BrowserModule
