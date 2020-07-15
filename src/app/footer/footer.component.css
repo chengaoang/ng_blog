@@ -1,4 +1,5 @@
 address {
+    text-align: center;
     border-top: 1px solid black;
 }
 
@@ -13,3 +14,9 @@ a[href^="mailto"]::before {
 a[href^="tel"]::before {
     content: "📞 ";
 }
+
+/* @media (hover:hover) {
+    .tags:hover{
+        background: red;
+    }
+} */
