@@ -1,18 +1,17 @@
 <div class="card">
     <div class="card-header">
-        <a href="#" class="card-header-title">
-           # Markdown
+        <a routerLink="/article" class="card-header-title">
+           # Title (may view time)
         </a>
     </div>
     <div class="card-content">
         <div class="content">
-            - this is markdown preview div
+        <router-outlet></router-outlet>
         </div>
     </div>
     <div class="card-footer">
-        <a href="#">#css</a> <a href="#">#responsive</a>
-        <br>
-        <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+        <a href="#">TagOne</a>_<a href="#">TagTwo</a>
+        <time datetime="2016-1-1">_11:09 PM - 1 Jan 2016</time>
     </div>
     <br/>
 </div>
